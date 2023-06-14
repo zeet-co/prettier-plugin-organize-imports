@@ -3,7 +3,8 @@
 		"module": "commonjs",
 		"target": "es2015",
 		"checkJs": true,
-		"strict": true
+		"strict": true,
+		"noEmit": true
 	},
 	"vueCompilerOptions": { "plugins": ["@volar/vue-language-plugin-pug"] }
 }
